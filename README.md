@@ -1,3 +1,3 @@
-#Washington Housing Prices
+# Washington Housing Prices
 
-#Background
+## Background
