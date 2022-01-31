@@ -1,7 +1,7 @@
 # Washington Housing Prices
 
 <p align='center'><img src='image/houses.jpg' alt='houses'/></p>
-The valuation of residential properties can take a huge chunk of time. Machine learning models can be used in production to assist real estate agents in swiftly estimating house values based on a variety of house properties. On the consumer side, it promotes transparency by allowing home buyers to view current and historical property details.
+The valuation of residential properties can take a huge chunk of time. Machine learning models can be used in production to assist real estate agents in swiftly estimating house values based on several house properties. On the consumer side, it promotes transparency by allowing home buyers to view current and historical property details.
 
 ## Problem Statement
 The goal of this project is to forecast house values in Washington based on the characteristics of these properties.
