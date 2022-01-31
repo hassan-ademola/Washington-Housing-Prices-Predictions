@@ -23,7 +23,7 @@ The data was split into train and test sets (in the ratio 3 to 1) before passing
 The whole preprocessing steps were bundled into a single pipeline
 
 ## Model Training and Evaluation
-Linear and Tree-based models were trained on the preprocessed data. The gradient boosting algorithms produced encouraging results, with CatBoostRegressor outperforming the others on unseen data with an error of around 93,000. Most of the models suffered from overfitting..
+Linear and Tree-based models were trained on the preprocessed data. The gradient boosting algorithms produced encouraging results, with CatBoostRegressor outperforming the others on unseen data with an error of around 93,000. Most of the models suffered from overfitting.
 
 ## Conclusion
 **Size, location, condition, and amenities** are some of the most important considerations for home purchasers when determining which property to buy.
