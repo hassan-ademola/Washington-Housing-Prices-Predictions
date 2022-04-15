@@ -1,6 +1,6 @@
 # Washington Housing Prices
 
-<p align='center'><img src='image/houses.jpg' alt='houses'/></p>
+<p align='center'><img src='images/houses.jpg' alt='houses'/></p>
 The valuation of residential properties can take a huge chunk of time. Machine learning models can be used in production to assist real estate agents in swiftly estimating house values based on several house properties. On the consumer side, it promotes transparency by allowing home buyers to view current and historical property details.
 
 ## Objective
@@ -27,7 +27,7 @@ Linear and Tree-based models were trained on the preprocessed data. The gradient
 
 ## Conclusion
 **Size, location, condition, and amenities** are some of the most important considerations for home purchasers when determining which property to buy.
-<p align='center'><img src='image/top_features.png' alt='top_features'/></p>
+<p align='center'><img src='images/top_features.png' alt='top_features'/></p>
 
 ## Next Steps
 - The models could benefit from hyperparameters tuning
