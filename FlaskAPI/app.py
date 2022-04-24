@@ -28,4 +28,6 @@ def predict():
     y = round(float(model.predict(X)),2)
     response = json.dumps({'price': y})
     return response, 200
-    
+
+if __name__ == "__main__":
+    app.run()
