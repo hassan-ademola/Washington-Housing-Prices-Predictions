@@ -2,12 +2,10 @@ catboost==1.0.5
 category-encoders==2.4.0
 Flask==2.1.1
 gunicorn==20.1.0
-jupyter==1.0.0
 lightgbm==3.3.2
 matplotlib==3.5.1
 numpy==1.22.3
 pandas==1.4.1
-requests==2.25.1
 scikit-learn==1.0.2
 seaborn==0.11.2
 xgboost==1.6.0
