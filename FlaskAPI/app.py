@@ -22,7 +22,7 @@ def predict():
         'yr_built', 'yr_renovated', 'street', 'city', 'zip']]
         
     model = load_model()
-    y = model.predict(X)
-    response = json.dumps({'price': float(y)})
+    y = round(float(model.predict(X)),2)
+    response = json.dumps({'price': y})
     return response, 200
     
