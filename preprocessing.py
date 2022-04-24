@@ -60,7 +60,7 @@ class Add_attr(BaseEstimator,TransformerMixin):
         df['score'] = df['facilities']*df['condition']
         
         # some division operations might return infinity values
-        df = df.replace(np.inf,dict(df.median()))
+        df = df.replace(np.inf,dict(df.median(numeric_only=True)))
         return df
 
     
@@ -89,7 +89,7 @@ class Encode(BaseEstimator,TransformerMixin):
     def transform(self,X,y=None):
         df = X.reset_index(drop=True)
         dummy_data = self.hot_encoder.transform(df[self.nominal])
-        self.dummy_cols = self.hot_encoder.get_feature_names(self.nominal)
+        self.dummy_cols = self.hot_encoder.get_feature_names_out(self.nominal)
         dummy_df = pd.DataFrame(dummy_data,columns=self.dummy_cols)
         ord_df = df[self.ordinal].reset_index(drop=True)
         cat_df = pd.concat([ord_df,dummy_df],axis=1)
